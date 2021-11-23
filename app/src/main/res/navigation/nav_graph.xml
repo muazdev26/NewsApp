@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_news_feed">
+
+    <fragment
+        android:id="@+id/nav_news_feed"
+        android:name="com.example.newsapp.ui.NewsFeedFragment"
+        android:label="@string/feed"
+        tools:layout="@layout/fragment_news_feed">
+        <action
+            android:id="@+id/action_nav_news_feed_to_searchNewsFragment"
+            app:destination="@id/searchNewsFragment" />
+        <action
+            android:id="@+id/action_nav_news_feed_to_newsDetailsFragment"
+            app:destination="@id/newsDetailsFragment" />
+        <action
+            android:id="@+id/action_nav_news_feed_to_allHeadlinesFragment"
+            app:destination="@id/allHeadlinesFragment" />
+        <action
+            android:id="@+id/action_nav_news_feed_to_categoryNewsFragment"
+            app:destination="@id/categoryNewsFragment" />
+        <action
+            android:id="@+id/action_nav_news_feed_to_allCategoriesFragment"
+            app:destination="@id/allCategoriesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_bookmarks"
+        android:name="com.example.newsapp.ui.BookMarksFragment"
+        android:label="@string/bookmarks"
+        tools:layout="@layout/fragment_book_marks">
+        <action
+            android:id="@+id/action_nav_bookmarks_to_newsDetailsFragment"
+            app:destination="@id/newsDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchNewsFragment"
+        android:name="com.example.newsapp.ui.SearchNewsFragment"
+        android:label="fragment_search_news"
+        tools:layout="@layout/fragment_search_news">
+        <action
+            android:id="@+id/action_searchNewsFragment_to_newsDetailsFragment"
+            app:destination="@id/newsDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsDetailsFragment"
+        android:name="com.example.newsapp.ui.NewsDetailsFragment"
+        android:label="fragment_news_details"
+        tools:layout="@layout/fragment_news_details">
+        <argument
+            android:name="news"
+            app:argType="com.example.newsapp.networking.Article" />
+    </fragment>
+    <fragment
+        android:id="@+id/allCategoriesFragment"
+        android:name="com.example.newsapp.ui.AllCategoriesFragment"
+        android:label="fragment_all_categories"
+        tools:layout="@layout/fragment_all_categories" >
+        <action
+            android:id="@+id/action_allCategoriesFragment_to_categoryNewsFragment"
+            app:destination="@id/categoryNewsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoryNewsFragment"
+        android:name="com.example.newsapp.ui.CategoryNewsFragment"
+        android:label="fragment_category_news"
+        tools:layout="@layout/fragment_category_news">
+        <argument
+            android:name="query"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/allHeadlinesFragment"
+        android:name="com.example.newsapp.ui.AllHeadlinesFragment"
+        android:label="fragment_all_headlines"
+        tools:layout="@layout/fragment_all_headlines" >
+        <action
+            android:id="@+id/action_allHeadlinesFragment_to_newsDetailsFragment"
+            app:destination="@id/newsDetailsFragment" />
+    </fragment>
+</navigation>

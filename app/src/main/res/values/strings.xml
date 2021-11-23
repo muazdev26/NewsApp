@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="feed">Feed</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="headlines">Headlines</string>
+    <string name="find_some_interesting_news">Find Some Interesting News</string>
+    <string name="e_g_sports">E.g. Sports</string>
+    <string name="news_detail">News Detail</string>
+    <string name="welcome">welcome</string>
+    <string name="see_more">See More</string>
+    <string name="what_s_happening_in">What\'s happening in;</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="all_headlines">All HeadLines</string>
+    <string name="all_categories">All Categories</string>
+</resources>
