@@ -22,9 +22,9 @@ Clone the repository and put the API_KEY in NewsApi.kt
 
 **Language:** Kotlin
 
-**Android Jetpack libraries:** Navigation Components, ViewBinding, Room
+**Android Jetpack libraries:** [Navigation Components](https://developer.android.com/guide/navigation/navigation-getting-started), [ViewBinding](https://developer.android.com/topic/libraries/view-binding), [Room](https://developer.android.com/jetpack/androidx/releases/room)
 
-**Netwrorking:** Retrofit with Gson and Coroutines
+**Netwrorking:** [Retrofit](https://github.com/square/retrofit) with Gson and Coroutines
 
-**Image Loading library:** Coil
+**Image Loading library:** [Coil](https://github.com/coil-kt/coil)
 
