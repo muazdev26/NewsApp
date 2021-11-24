@@ -1,5 +1,5 @@
 
-# News App with News APi
+# News App with News API
 This News App fetches headlines and provide search functionality of news.
 
 
@@ -24,7 +24,7 @@ Clone the repository and put the API_KEY in NewsApi.kt
 
 **Android Jetpack libraries:** Navigation Components, ViewBinding, Room
 
-**Netwroking:** Retrofit with Gson and Coroutines
+**Netwrorking:** Retrofit with Gson and Coroutines
 
 **Image Loading library:** Coil
 
