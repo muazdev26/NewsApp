@@ -2,6 +2,12 @@
 # News App with News API
 This News App fetches headlines and provide search functionality of news.
 
+##ScreenShots
+
+<div align="center">
+  <img src="https://github.com/muazdev26/muazdev26.github.io/blob/main/news_app_home.png" width="200px" />  <img src="https://github.com/muazdev26/muazdev26.github.io/blob/main/news_app_all_headlines.png" width="200px" />  <img src="https://github.com/muazdev26/muazdev26.github.io/blob/main/news_app_bookmarks.png" width="200px" /><br>
+  <img src="https://github.com/muazdev26/muazdev26.github.io/blob/main/news_app_all_categories.png" width="200px" />  <img src="https://github.com/muazdev26/muazdev26.github.io/blob/main/news_app_category_details.png" width="200px" />  <img src="https://github.com/muazdev26/muazdev26.github.io/blob/main/news_app_detail.png" width="200px" />
+</div>
 
 ## Features
 
